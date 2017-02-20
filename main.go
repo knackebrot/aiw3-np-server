@@ -6,7 +6,7 @@ import (
 	"github.com/knackebrot/aiw3-np-server/http"
 	//"github.com/knackebrot/aiw3-np-server/misc"
 	"github.com/knackebrot/aiw3-np-server/np"
-	"github.com/knackebrot/aiw3-np-server/np/aci"
+	//"github.com/knackebrot/aiw3-np-server/np/aci"
 	"github.com/yvasiyarov/gorelic"
 	//"github.com/knackebrot/aiw3-np-server/playerlog"
 	"github.com/eaigner/jet"
