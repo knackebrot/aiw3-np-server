@@ -53,10 +53,10 @@ func RPCStorageSendRandomStringMessage(conn net.Conn, connection_data *structs.C
 		// Deprecated
 		logger.Debugf("Handling aCI2 request from %X", connection_data.Npid)
 		return aci.HandleCI2(conn, connection_data, packet_data, parts)
-	case "roll":
+	//case "roll":
 		// Will be used soon
-		logger.Debugf("Handling aCI3 request from %X", connection_data.Npid)
-		return aci.HandleCI3(conn, connection_data, packet_data, parts)
+		//logger.Debugf("Handling aCI3 request from %X", connection_data.Npid)
+		//return aci.HandleCI3(conn, connection_data, packet_data, parts)
 	case "fal":
 		// Currently used
 		logger.Debugf("Handling aCI2.5 request from %X", connection_data.Npid)

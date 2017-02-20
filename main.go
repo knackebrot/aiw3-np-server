@@ -31,12 +31,12 @@ func main() {
 	})*/
 
 	// Load the aCI3 key
-	err := aci.LoadKey(settings.NP.AnticheatKeyPath)
-	if err != nil {
-		logger.Fatalf("Cannot load aCI3 key; %s", err)
-	} else {
-		logger.Infof("Loaded aCI3 key")
-	}
+	//err := aci.LoadKey(settings.NP.AnticheatKeyPath)
+	//if err != nil {
+		//logger.Fatalf("Cannot load aCI3 key; %s", err)
+	//} else {
+		//logger.Infof("Loaded aCI3 key")
+	//}
 
 	// Start the NewRelic client if it's enabled in the config file
 	if settings.NewRelic.Enabled {
