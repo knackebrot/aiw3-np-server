@@ -2,8 +2,8 @@ package np
 
 import (
 	"errors"
-	"git.cloudrack.io/aiw3/np-server/np/handlers"
-	"git.cloudrack.io/aiw3/np-server/np/structs"
+	"github.com/knackebrot/aiw3-np-server/np/handlers"
+	"github.com/knackebrot/aiw3-np-server/np/structs"
 	"net"
 )
 

@@ -1,9 +1,9 @@
 package environment
 
 import (
-	"git.cloudrack.io/aiw3/np-server/config"
+	"github.com/knackebrot/aiw3-np-server/config"
 	"github.com/eaigner/jet"
-	"github.com/vmihailenco/redis/v2"
+	"github.com/go-redis/redis"
 )
 
 type Environment struct {

@@ -2,11 +2,11 @@ package http
 
 import (
 	"code.google.com/p/go.crypto/bcrypt"
-	"git.cloudrack.io/aiw3/np-server/config"
-	"git.cloudrack.io/aiw3/np-server/environment"
-	"git.cloudrack.io/aiw3/np-server/np/storage"
-	"git.cloudrack.io/aiw3/np-server/np/structs"
-	"git.cloudrack.io/aiw3/np-server/utils"
+	"github.com/knackebrot/aiw3-np-server/config"
+	"github.com/knackebrot/aiw3-np-server/environment"
+	"github.com/knackebrot/aiw3-np-server/np/storage"
+	"github.com/knackebrot/aiw3-np-server/np/structs"
+	"github.com/knackebrot/aiw3-np-server/utils"
 	"github.com/codegangsta/martini"
 	"github.com/dchest/uniuri"
 	"github.com/fiam/gounidecode/unidecode"

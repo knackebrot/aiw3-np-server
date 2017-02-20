@@ -2,9 +2,9 @@ package handlers
 
 import (
 	"code.google.com/p/goprotobuf/proto"
-	"git.cloudrack.io/aiw3/np-server/np/aci"
-	"git.cloudrack.io/aiw3/np-server/np/protocol"
-	"git.cloudrack.io/aiw3/np-server/np/structs"
+	"github.com/knackebrot/aiw3-np-server/np/aci"
+	"github.com/knackebrot/aiw3-np-server/np/protocol"
+	"github.com/knackebrot/aiw3-np-server/np/structs"
 	"github.com/pzduniak/logger"
 	"net"
 	"strings"

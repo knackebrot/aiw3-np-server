@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"git.cloudrack.io/aiw3/np-server/np/structs"
+	"github.com/knackebrot/aiw3-np-server/np/structs"
 	"net"
 )
 
