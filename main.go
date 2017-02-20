@@ -12,7 +12,7 @@ import (
 	"github.com/eaigner/jet"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/pzduniak/logger"
-	"github.com/go-redis/redis"
+	"gopkg.in/redis.v2"
 )
 
 func main() {

@@ -4,7 +4,7 @@
 
 package protocol
 
-import proto "code.google.com/p/goprotobuf/proto"
+import proto "github.com/adjust/goprotobuf/proto"
 import json "encoding/json"
 import math "math"
 

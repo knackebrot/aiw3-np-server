@@ -3,7 +3,7 @@ package environment
 import (
 	"github.com/knackebrot/aiw3-np-server/config"
 	"github.com/eaigner/jet"
-	"github.com/go-redis/redis"
+	"gopkg.in/redis.v2"
 )
 
 type Environment struct {

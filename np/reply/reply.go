@@ -2,7 +2,7 @@ package reply
 
 import (
 	"bytes"
-	"code.google.com/p/goprotobuf/proto"
+	"github.com/adjust/goprotobuf/proto"
 	"encoding/binary"
 	"errors"
 	"github.com/knackebrot/aiw3-np-server/np/structs"

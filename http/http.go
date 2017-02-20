@@ -1,7 +1,7 @@
 package http
 
 import (
-	"code.google.com/p/go.crypto/bcrypt"
+	"golang.org/x/crypto/bcrypt"
 	"github.com/knackebrot/aiw3-np-server/config"
 	"github.com/knackebrot/aiw3-np-server/environment"
 	"github.com/knackebrot/aiw3-np-server/np/storage"

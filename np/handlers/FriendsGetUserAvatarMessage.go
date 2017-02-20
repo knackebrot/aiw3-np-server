@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"bytes"
-	"code.google.com/p/goprotobuf/proto"
+	"github.com/adjust/goprotobuf/proto"
 	"github.com/knackebrot/aiw3-np-server/environment"
 	"github.com/knackebrot/aiw3-np-server/np/protocol"
 	"github.com/knackebrot/aiw3-np-server/np/reply"

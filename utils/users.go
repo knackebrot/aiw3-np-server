@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"code.google.com/p/goprotobuf/proto"
+	"github.com/adjust/goprotobuf/proto"
 	"errors"
 	"github.com/knackebrot/aiw3-np-server/environment"
 	"github.com/knackebrot/aiw3-np-server/np/reply"
